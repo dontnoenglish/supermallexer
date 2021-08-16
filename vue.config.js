@@ -1,0 +1,13 @@
+module.exports={
+    configureWebpack:{
+       resolve:{
+           //起别名，方便调用
+           alias:{
+              'assets':'@/assets',
+              'common':'@/common',
+              'components':'@/components',
+              'network':'@/network'
+           }
+       }
+    }
+}

@@ -1,0 +1,24 @@
+@import './normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .tab_bar {
+         display: flex;
+         background-color: #f6f6f6;
+         position:fixed;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         height: 49px;
+         text-align: center;
+         /* vertical-align: middle; */
+  }
+  .tab_bar_item {
+    flex: 1;
+  }
+  .tab_bar_item img {
+    height: 24px;
+    width: 24px;
+  }
